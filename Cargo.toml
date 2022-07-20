@@ -1,8 +1,8 @@
 [package]
 name = "overloadf"
-version = "0.1.7"
+version = "0.1.8"
 authors = ["zenix <zenixls2@gmail.com>"]
-edition = "2018"
+edition = "2021"
 readme = "README.md"
 repository = "https://github.com/zenixls2/overloadf"
 homepage = "https://github.com/zenixls2/overloadf"
@@ -21,7 +21,7 @@ overloadf_derive = { path = "overloadf_derive", version = "0.1.7" }
 travis-ci = { repository = "zenixls2/overloadf" }
 
 [dev-dependencies]
-futures = "0.3.5"
+futures = "0.3.21"
 
 [package.metadata.doc.rs]
 all-features = true

@@ -1,8 +1,8 @@
 [package]
 name = "overloadf_derive"
-version = "0.1.7"
+version = "0.1.8"
 authors = ["zenix <hansheng.huang@sbibits.com>"]
-edition = "2018"
+edition = "2021"
 repository = "https://github.com/zenixls2/overloadf"
 homepage = "https://github.com/zenixls2/overloadf"
 documentation = "https://docs.rs/overloadf/"
@@ -16,7 +16,7 @@ license = "MIT"
 proc-macro = true
 
 [dependencies]
-syn = { version = "1.0.25", features = ["full", "extra-traits"] }
-quote = "1.0.6"
+syn = { version = "1.0.98", features = ["full", "extra-traits"] }
+quote = "1.0.20"
 lazy_static = "1.4.0"
-proc-macro2 = "1.0.17"
+proc-macro2 = "1.0.40"
