@@ -82,9 +82,9 @@ pub struct ItemFn {
 
 impl Parse for Assign {
     fn parse(input: ParseStream) -> Result<Self> {
-        let eq_token: Token![=] = input.parse()?;
+        //let eq_token: Token![=] = input.parse()?;
         let right: Box<syn::Expr> = input.parse()?;
-        Ok(Self { eq_token, right })
+        Ok(Self { right })
     }
 }
 
