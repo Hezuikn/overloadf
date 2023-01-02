@@ -288,7 +288,7 @@ impl Parse for ItemFn {
 
 impl ToTokens for Assign {
     fn to_tokens(&self, tokens: &mut proc_macro2::TokenStream) {
-        self.eq_token.to_tokens(tokens);
+        //self.eq_token.to_tokens(tokens);
         self.right.to_tokens(tokens);
     }
 }
