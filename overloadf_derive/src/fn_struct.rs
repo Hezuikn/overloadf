@@ -37,7 +37,7 @@ where
 
 #[derive(Debug, Eq, PartialEq, Hash, Clone)]
 pub struct Assign {
-    pub eq_token: syn::token::Eq,
+    //pub eq_token: syn::token::Eq,
     pub right: Box<syn::Expr>,
 }
 
