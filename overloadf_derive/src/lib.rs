@@ -28,7 +28,7 @@ macro_rules! quotation_expand {
             quote!(())
         } else {
             quote!((#(#$x),*,))
-        };
+        }
     }
 }
 
